@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookProject</string>
+    <string name="Book_name">Name</string>
+    <string name="Boook_name">Nombre:</string>
+    <string name="Book_title">Titulo</string>
+    <string name="Book_year">Años cumplidos:</string>
+    <string name="Save">Guardar</string>
+</resources>
