@@ -25,8 +25,19 @@ class MainActivity : AppCompatActivity() {
             infoTextView.text = nameText
             var yearText : String = yearEditText.text.toString()
             info2TextView.text = yearText
+
+
+
         }
 
 
     }
+}
+
+fun newInstance(): {
+    val args = Bundle()
+    
+    val fragment = ()
+    fragment.arguments = args
+    return fragment
 }
