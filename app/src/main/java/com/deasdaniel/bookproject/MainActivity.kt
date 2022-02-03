@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         var infoTextView : TextView = findViewById(R.id.info_text_view)
         var yearEditText : EditText = findViewById(R.id.Year_edit_text)
         var info2TextView: TextView = findViewById(R.id.text_year_info)
+        var info3TextView: TextView = findViewById(R.id.title_text_view)
 
 
         saveButton.setOnClickListener {
@@ -34,10 +35,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-fun newInstance(): {
-    val args = Bundle()
-    
-    val fragment = ()
-    fragment.arguments = args
-    return fragment
-}
